@@ -1,0 +1,54 @@
+
+/*first container style*/
+.container{
+    background-color: rgb(232, 232, 78);
+    display: flex;
+ 
+    margin-top: 5px;
+    
+    height: 250px;
+    justify-content: space-around;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* second container style*/
+.second{
+    background-color:aliceblue;
+    height: 500px;
+    
+}
+/*icons style in adress component*/
+
+.adresse{
+    
+    margin-top: 110px;
+    padding-left: 350px;
+}
+.icons{
+    width:20px;
+    height: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+
+/* paragraph component*/
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:950px;
+    font-family: 'roboto';
+    font-weight: 300px;
+    line-height: 25px;
+    margin-left: 210px;
+padding-top: 50px;
+    
+}
+span{
+    display: flex;
+    width:450px;
+    justify-content: space-around;
+}
